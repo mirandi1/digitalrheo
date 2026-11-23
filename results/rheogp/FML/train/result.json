@@ -1,0 +1,43 @@
+{
+  "model": "FML",
+  "gp_kernel": "linear",
+  "control": "strain",
+  "convolution": "causal",
+  "quadrature": "exact",
+  "feature_names": [
+    "Gc"
+  ],
+  "phys_params": {
+    "beta": 0.014382929541170597,
+    "tau_c": 1.4868454933166504
+  },
+  "derived_params": {
+    "tau_c": 1.4868454933166504,
+    "Gc": 33.68588400545924
+  },
+  "metrics": {
+    "rmse": 0.01805040923881483,
+    "r2": 0.999959594105583,
+    "nll": -4511.499881744385,
+    "elbo_per_point": -3.00766658782959,
+    "aic": -9008.99976348877,
+    "aicc": -9008.92469646464,
+    "bic": -8971.807220779137,
+    "n_params": {
+      "n_shape": 2,
+      "n_prefactors": 1,
+      "n_gp_hyper": 4,
+      "n_variational": 90600,
+      "n_shift": 0,
+      "k_total": 7
+    },
+    "n_data": 1500
+  },
+  "sensitivity_scalars": {
+    "Gc": {
+      "scalar_mean": 33.68588400545924,
+      "scalar_lower": 33.6608167630035,
+      "scalar_upper": 33.71528909326637
+    }
+  }
+}
