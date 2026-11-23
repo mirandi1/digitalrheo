@@ -1,0 +1,26 @@
+# Environment for paper_figures.ipynb
+#   conda env create -f environment.yml
+#   conda activate perspective-figures
+# A LaTeX installation (e.g. TeX Live or MacTeX) is also required for the figure text.
+name: perspective-figures
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - scipy==1.15.3
+      - pandas==2.3.3
+      - openpyxl==3.1.5
+      - matplotlib==3.10.9
+      - SciencePlots==2.2.2
+      - scikit-learn==1.7.2
+      - dynesty==3.1.0
+      - torch==2.13.0
+      - gpytorch==1.15.2
+      - botorch==0.16.1
+      - mastercurves==0.2.3
+      - jupyter==1.1.1
+      - git+https://github.com/mirandi1/rheogp@v1.1.0
+      - git+https://github.com/mirandi1/pyRheo@9435084aa64c3a59039137227f48127bee384f36

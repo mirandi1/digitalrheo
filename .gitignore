@@ -2,12 +2,16 @@
 /*
 !/.gitignore
 !/paper_figures.ipynb
+!/environment.yml
 
 
 !/data/
 /data/*
 !/data/PS_LVE_ShanbhagRicarte.xlsx
 !/data/Chitre2024_LiquidFormulationsDataset.json
+!/data/micelles/
+!/data/cnf_laos_1.0wt/
+!/data/chia_pudding/
 
 !/figures/
 /figures/*
@@ -44,3 +48,7 @@
 !/results/rhinn/data.json
 !/results/rhinn/ensemble_steady.json
 !/results/rhinn/ensemble_steady_transient.json
+
+# backups of superseded results and figures
+_superseded*/
+.DS_Store
